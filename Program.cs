@@ -10,6 +10,7 @@ namespace _05_AddressBookSystem
             AddressBook addressBook = new AddressBook();
             addressBook.AddContacts();
             addressBook.EditDetails();
+            addressBook.DeleteContact();
         }
     }
 }

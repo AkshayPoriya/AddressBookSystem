@@ -106,5 +106,33 @@ namespace _05_AddressBookSystem
                     flag = false;
             }
         }
+
+        public void DeleteContact()
+        {
+            bool flag = true;
+            while (flag)
+            {
+                Console.WriteLine("\nTo Delete Contact, enter firstname followed by a space, followed by lastname of the contact");
+                string name = Console.ReadLine();
+                if (nameToContactMapper.ContainsKey(name))
+                {
+                    Contact contact = nameToContactMapper[name];
+                    var index = contactList.FindIndex(i => i == contact); // like Where/Single
+                    if (index >= 0)
+                    {   // ensure item found
+                        contactList.RemoveAt(index);
+                    }
+                    nameToContactMapper.Remove(name);
+                }
+                else
+                {
+                    Console.WriteLine("Entered name did't match with any record!");
+                }
+                Console.WriteLine("\nTo update more contact details enter YES");
+                string option = Console.ReadLine();
+                if (option != "YES")
+                    flag = false;
+            }
+        }
     }
 }
