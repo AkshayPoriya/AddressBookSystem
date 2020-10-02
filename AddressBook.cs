@@ -4,10 +4,10 @@ using System.Text;
 
 namespace _05_AddressBookSystem
 {
-    class AddressBook
+    public class AddressBook
     {
         private readonly NLog nLog = new NLog();
-        public List<Contact> contactList = new List<Contact>();
+        private List<Contact> contactList = new List<Contact>();
         private Dictionary<string, Contact> nameToContactMapper = new Dictionary<string, Contact>();
 
         public void AddContacts()
@@ -99,6 +99,11 @@ namespace _05_AddressBookSystem
                 else
                 {
                     Console.WriteLine("Entered name did't match with any record!");
+                    Console.WriteLine("Valid names: ");
+                    foreach(Contact contact in contactList)
+                    {
+                        Console.WriteLine(contact.firstName+" "+contact.lastName);
+                    }
                 }
                 Console.WriteLine("\nTo update more contact details enter YES");
                 string option = Console.ReadLine();
@@ -123,12 +128,18 @@ namespace _05_AddressBookSystem
                         contactList.RemoveAt(index);
                     }
                     nameToContactMapper.Remove(name);
+                    Console.WriteLine("Contact deleted successfully");
                 }
                 else
                 {
                     Console.WriteLine("Entered name did't match with any record!");
+                    Console.WriteLine("Valid names: ");
+                    foreach (Contact contact in contactList)
+                    {
+                        Console.WriteLine(contact.firstName + " " + contact.lastName);
+                    }
                 }
-                Console.WriteLine("\nTo update more contact details enter YES");
+                Console.WriteLine("\nTo Delete more contact details enter YES");
                 string option = Console.ReadLine();
                 if (option != "YES")
                     flag = false;
