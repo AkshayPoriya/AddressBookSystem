@@ -23,3 +23,5 @@
 2020-10-03 00:23:14.0887|WARN|_05_AddressBookSystem.NLog|Any entry should not be empty!
 2020-10-03 00:23:14.0887|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
 2020-10-03 00:23:14.0887|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: 
+2020-10-03 00:39:11.1069|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 00:39:11.3746|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: a
