@@ -7,6 +7,8 @@ namespace _05_AddressBookSystem
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to Address Book Program!");
+            AddressBook addressBook = new AddressBook();
+            addressBook.AddContact();
         }
     }
 }
