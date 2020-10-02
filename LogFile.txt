@@ -2,3 +2,7 @@
 2020-10-02 22:39:27.1702|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: Sam
 2020-10-02 22:56:07.4509|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
 2020-10-02 22:56:07.6179|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: Akshay
+2020-10-02 23:45:45.0388|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-02 23:45:45.1868|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: Akshay
+2020-10-02 23:46:01.0164|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-02 23:46:01.0164|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: a
