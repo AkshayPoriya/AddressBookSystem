@@ -30,3 +30,22 @@
 2020-10-03 00:45:33.3297|WARN|_05_AddressBookSystem.NLog|Any entry should not be empty!
 2020-10-03 00:45:33.3297|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
 2020-10-03 00:45:33.3297|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: 
+2020-10-03 01:55:55.3046|DEBUG|_05_AddressBookSystem.NLog|Debug Unsuccessful: AddContact()
+2020-10-03 01:55:55.5569|ERROR|_05_AddressBookSystem.NLog|values entered by user was invalid i.e empty string
+2020-10-03 01:55:55.5569|WARN|_05_AddressBookSystem.NLog|Any entry should not be empty!
+2020-10-03 01:55:55.5638|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 01:55:55.5638|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: 
+2020-10-03 01:56:18.8661|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 01:56:18.8661|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: a
+2020-10-03 02:00:15.4567|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 02:00:15.4938|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: a
+2020-10-03 02:01:23.6972|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 02:01:23.7329|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: a
+2020-10-03 02:03:42.6085|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 02:03:42.6557|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: a
+2020-10-03 02:06:23.6926|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 02:06:23.7289|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: a
+2020-10-03 02:09:03.0015|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 02:09:03.0452|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: h
+2020-10-03 02:09:10.8275|DEBUG|_05_AddressBookSystem.NLog|Log Successful: AddContact()
+2020-10-03 02:09:10.8282|INFO|_05_AddressBookSystem.NLog|Contact Created with first name: b
